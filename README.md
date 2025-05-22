@@ -22,7 +22,7 @@ _Add relevant screenshots here if needed_
 This is a **premium tool**. To get a license key, contact us:
 
 👉 **[Join Telegram Channel](https://t.me/codex_meta_tools)**  
-💬 **[Buy Key from Developer](https://t.me/Professor6t)**
+💬 **[Buy Key from Developer](https://t.me/codexAdmin)**
 
 ---
 

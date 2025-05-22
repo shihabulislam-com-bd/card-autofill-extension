@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Activate License</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #111827, #0f172a);
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: #f9fafb;
+    }
+
+    .box {
+      background: #1f2937;
+      padding: 30px 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      width: 100%;
+      max-width: 360px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #8b5cf6;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 12px 15px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 8px;
+      background: #374151;
+      color: #f9fafb;
+      font-size: 15px;
+    }
+
+    input::placeholder {
+      color: #9ca3af;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(90deg, #8e2de2 0%, #4a00e0 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+      transition: 0.3s ease;
+      box-shadow: 0 0 10px #4a00e0aa;
+    }
+
+    button:hover {
+      filter: brightness(1.1);
+    }
+
+    #message {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .error {
+      color: #f87171;
+    }
+
+    .success {
+      color: #34d399;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Activate Your License</h2>
+    <input type="text" id="licenseKey" placeholder="Enter your license key" />
+    <button id="submitLicense">Activate</button>
+    <div id="message"></div>
+  </div>
+
+  <script src="license.js"></script>
+</body>
+</html>

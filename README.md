@@ -15,9 +15,6 @@
 3. Use the popup to autofill or add cards.
 4. Manage BINs and activate license from the settings panel.
 
-## Screenshots
-_Add relevant screenshots here if needed_
-
 ## 🔐 Premium Access
 This is a **premium tool**. To get a license key, contact us:
 
